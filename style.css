@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+  /* --color-laranja: #BF5629; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    min-height: 100vh;
+    background-image: url(/img/fundo.png);
+    background-size: cover;
+    color: aliceblue;
+    font-family: "Quicksand",  Times, serif; 
+
+}
+
+
+.tudo h5{
+    color: rgb(126, 128, 128);
+
+}
+.devolta{
+    color: #BF5629; 
+}
+
+.bemvindo img {
+    width: 250px;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    min-height: 100vh;
+    padding: 150px 350px ;
+    justify-content: flex-start ;
+    gap: 50px;
+    
+}
+
+.login input {
+    width: 350px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #010c1f;
+    border: 2px solid  rgb(126, 128, 128);
+    margin-bottom: 40px;
+    
+}
+
+.login button{
+    width: 350px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #BF5629;
+    border: 2px solid  rgb(126, 128, 128);
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-family: "Quicksand",  Times, serif;
+}
+
+.criarconta a{
+    
+    text-decoration: none;
+}
+

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+  /* --color-laranja: #BF5629; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fundoconta.png);
+    min-height: 100vh;
+    background-size: cover;
+    color: rgb(7, 7, 7);
+    font-family: "Quicksand",  Times, serif; 
+    overflow: hidden;  
+
+}
+
+
+
+
+body h5{
+    color: rgb(126, 128, 128);
+    padding: 5px 0px 20px 0px;
+}
+
+.tudoinformacao{
+    display: flex;
+    min-height: 100vh;
+    padding: 40px 400px 100px 650px ;
+    justify-content: flex-start ;
+    gap: 50px;
+}
+
+
+
+
+.informacao input,
+.informacao select{
+    width: 600px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #f2f3f7;
+    border: 2px solid  rgb(5, 5, 5);
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+.informacao button{
+    width: 600px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #BF5629;
+    border: 2px solid  rgb(0, 0, 0);
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-family: "Quicksand",  Times, serif;
+}
