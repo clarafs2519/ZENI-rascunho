@@ -32,9 +32,9 @@ body{
 
 .card{
     background-color: #111827;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 20px 40px 40px 20px;
-    border-color: rgb(126, 128, 128);
+    border: 2px solid rgb(126, 128, 128);
     width: 350px;
     height: 300px;
 
@@ -42,18 +42,18 @@ body{
 
 .card1{
     background-color: #111827;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 20px 40px 40px 20px;
-    border-color: rgb(126, 128, 128);
+    border: 2px solid rgb(126, 128, 128);
     width: 400px;
     height: 200px;
 
 }
 .card2{
     background-color: #111827;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 20px 40px 40px 20px;
-    border-color: rgb(126, 128, 128);
+    border: 2px solid rgb(126, 128, 128);
     width: 670px;
     height: 200px;
 
@@ -76,7 +76,7 @@ body{
 .menulateral {
     width: 10px;
     min-height: 100vh;
-    padding: 150px 50px 10px 25px;
+    padding: 10px 50px 10px 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,4 +90,16 @@ body{
     a{
         text-decoration: none;  
     }
+
+        img{
+        width: 200px;
+        border-radius: 50px;
+
+    }
 }
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 30px
+    
+    }
